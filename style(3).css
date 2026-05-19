@@ -1,0 +1,194 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Header Section */
+.header {
+  background: linear-gradient(to right, rgba(246, 246, 5, 0.832), rgb(226, 202, 43));
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header.logo {
+  width: 500px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav a {
+  color: rgb(22, 21, 21);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.reserve-btn {
+  background-color: goldenrod;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.reserve-btn:hover {
+  background-color: rgb(229, 234, 229);
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(to right, #bace1f, #a2bf54);
+  color: white;
+}
+
+.hero-content {
+  max-width: 70%;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+  color: #863ce7;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.explore-btn {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.explore-btn:hover {
+  background-color: green;
+}
+
+.hero-image {
+  max-width: 40%;
+  border-radius: 15px;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: #ecf0f1;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature img {
+  width: 80px;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+
+.feature img:hover {
+  transform: scale(1.1);
+}
+
+.feature h3 {
+  margin: 10px 0;
+  color: #e74c3c;
+}
+
+/* Menu Section */
+.menu {
+  text-align: center;
+  padding: 40px;
+  background-color:orange;
+  color: green;
+}
+/* Menu Button */
+.menu_button {
+  background-color: gold(122, 128, 0); /* Vibrant gold background */
+  color: black; /* Text color */
+  padding: 20px 40px; /* Larger button size */
+  border: none; /* Remove default border */
+  border-radius: 8px; /* Slightly rounded corners */
+  font-size: 24px; /* Bigger text */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-bottom: 30px; /* Space below the button */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+.menu_button:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.menu h2 {
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.grid img:hover {
+  transform: scale(1.1);
+}
+
+/* Footer Section */
+.footer {
+  padding: 20px 40px;
+  background: #34495e;
+  color: white;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.footer .links a {
+  color: #bdc3c7;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.footer .links a:hover {
+  color: #ecf0f1;
+}
